@@ -1,0 +1,109 @@
+.table_titles {
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #000;
+  }
+  .table_titles {
+  color: #FFF;
+  background-color: #ffbc4b;
+  }
+  table {
+  border: 2px solid #333;
+  width: 80%;
+  }
+  td{
+    text-align: center;
+    padding: 10px;
+  }
+  * {box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    }
+  body {
+    /*font-family: "Lato", sans-serif;*/
+    font-family: source-serif-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1{
+    text-transform: uppercase;
+  }
+  /* Style the tab */
+
+  .menu {
+    background-color: white;
+    width:15%
+  }
+
+  /* Style the buttons inside the tab */
+  .menu button ,a {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    text-decoration:none;
+    font-family: source-serif-pro,serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
+  /* Change background color of buttons on hover */
+  .menu button:hover ,a:hover {
+    background-color: #00ccff;
+    color: white;
+  }
+
+  /* Create an active/current "tab button" class */
+  .menu button:active , a:active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .menu-content {
+    float: left;
+    position: absolute;
+    left:15%;
+    top:0%;
+    margin-top: 80px;
+    background-color: #f1f1f1;
+    padding: 0px 12px;
+    /*border: 1px solid #ccc;*/
+    width: 85%;
+    border-left: none;
+    height: 590px;
+    
+
+  }
+  .footer{
+    background-color: darkgrey;
+    font-family: Times New Roman;
+    color: white;
+    margin-top: 600px;
+    margin-left: 0px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100%;
+  }
+  header{
+    background-color: #233c5a;
+    height: 80px;
+    color: white; 
+    padding: 25px;
+    padding-right: 0px;
+  }
+  article{
+    justify-content: center;
+  }
+  

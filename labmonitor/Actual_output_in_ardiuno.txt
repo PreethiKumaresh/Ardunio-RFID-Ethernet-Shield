@@ -1,0 +1,49 @@
+Process has been Started
+
+**Card Detected:**
+Card UID: DB 71 4F A3
+Card SAK: 08
+PICC type: MIFARE 1KB
+Name: Kumaresh         
+Name in Hex: 4B756D61726573682020202020202020
+**End Reading**
+
+Connection established for HTTP Request
+UID: DB714FA3 
+NAME: Kumaresh        Received string: 
+HTTP/1.1 200 OK
+Date: Sun, 03 Mar 2019 17:27:06 GMT
+Server: Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39
+X-Powered-By: PHP/5.6.39
+Set-Cookie: PHPSESSID=254ed8n63d2ih319jave790j57; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+-------------------
+Json Data
+{"status": "success","result": "newuser", "system_info": "PGLab_02"}
+Welcome your system is
+PGLab_02
+
+**Card Detected:**
+Card UID: DB 71 4F A3
+Card SAK: 08
+PICC type: MIFARE 1KB
+Name: Kumaresh         
+Name in Hex: 4B756D61726573682020202020202020
+**End Reading**
+
+Connection established for HTTP Request
+UID: DB714FA3 
+NAME: Kumaresh        Received string: 
+HTTP/1.1 200 OK
+Date: Sun, 03 Mar 2019 17:27:06 GMT
+Server: Apache/2.4.37 (Win32) OpenSSL/1.0.2p PHP/5.6.39
+X-Powered-By: PHP/5.6.39
+Set-Cookie: PHPSESSID=254ed8n63d2ih319jave790j57; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+-------------------
+Json Data
+{"status": "success","result": "olduser", "system_info": "none"}
+Thank you

@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+    body {
+   font-family: source-serif-pro,serif;
+   font-weight: 400;
+   font-style: normal;
+   color: grey;
+}
+span{
+      color: red;
+      font-style: italic;
+    }
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+input[type=text] ,input[type=password]{
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+  outline: none;
+  box-sizing: border-box;
+}
+input[type=text]:focus,input[type=password]:focus{
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0052cc;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #00ccff;
+}
+table{
+  border:1px solid #ccc;
+  border-radius: 10px;
+  width: 150%;
+  padding: 20px;
+  background-color: white;
+}
